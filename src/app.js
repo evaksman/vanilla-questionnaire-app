@@ -30,5 +30,6 @@ const submitFormHandler = (event) => {
 	}
 }
 
+window.addEventListener('load', Question.renderList)
 form.addEventListener('submit', submitFormHandler)
 input.addEventListener('input', inputHandler)

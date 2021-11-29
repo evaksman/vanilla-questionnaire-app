@@ -9,8 +9,7 @@ module.exports = {
 		path: path.resolve(__dirname, 'public')
 	},
 	devServer: {
-		port: 3000,
-		watchContentBase: true
+		port: 3000
 	},
 	plugins: [
 		new HTMLPlugin({
